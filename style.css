@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+
+   box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(129, 142, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+  .fcontainer{
+    display: flex;
+   transition: all 0.5s ease-in;
+    
+  }
+.images{
+    width: 950px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.frame{
+  box-shadow: 2px 2px 10px blue;
+  overflow: hidden;
+  width: 950px;
+}
+
+.left{
+    width: 90px;
+}
+
+.right{
+    width: 90px;
+    transform: rotate(180deg);
+    
+}
+
+ 
